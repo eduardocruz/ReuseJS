@@ -22,7 +22,7 @@ Status: Pending
 - Lucas 
 - José Augusto 
 
-Team repository: N/A
+Team repository: [https://github.com/augustogc/ReusoSoftware](https://github.com/augustogc/ReusoSoftware)
 
 Status: Pending
 
