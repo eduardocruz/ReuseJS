@@ -15,7 +15,7 @@ Status: Pending
 - Antonio Carlos
 - Camila 
 
-Team repository: N/A
+Team repository: [https://github.com/camilalemosmelo/Exercicio](https://github.com/camilalemosmelo/Exercicio)
 
 Status: Pending
 
