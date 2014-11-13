@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Page 17</title>
-	<link href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">	
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">	
+	<title>Page 20</title>
+	<link rel="stylesheet" type="text/css" href="page19.css" media="screen" />
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<h1>Page 17</h1>
+			<h1>Page 20</h1>
 		</div>
 		<div class="row">
 			<div class="col-md-6">
@@ -52,7 +51,17 @@
 		</div>
 	</div>
 	<div id="pagination"></div>
-	<script type="text/javascript" src="page15.js"> </script>
-	<script type="text/javascript" src="page13.js"> </script>
+		<script type="text/javascript">
+			var imported1 = document.createElement('script');
+			var imported2 = document.createElement('script');			
+			imported1.src = 'page15.js';
+			document.head.appendChild(imported1);
+			imported2.src = 'page13.js';
+			document.head.appendChild(imported2);
+
+			var json = '{"result":true,"count":1}',
+    		obj = JSON.parse(json);
+			alert(obj.count);
+		</script>
 </body>
 </html>
